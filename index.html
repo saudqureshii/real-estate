@@ -1,0 +1,2005 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>real-estate - Find your dream house</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- 
+      - favicon
+    -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+      - custom css link
+    -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+  <!-- 
+      - google font link
+    -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+      - #HEADER
+    -->
+
+  <header class="header" data-header>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light px-3">
+
+      <!--Logo-->
+      <a class="navbar-brand" href="#">
+        <img src="./assets/images/logo.png" alt="logo" height="auto" width="80px"
+          class="d-inline-block text-align-top logo">
+      </a>
+
+      <!--Collapse toggle-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg"
+        aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg"
+        aria-labelledby="navbarOffcanvasLgLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav ms-lg-auto px-4">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#service" class="nav-link">Service</a>
+              </li>
+              <li class="nav-item">
+                <a href="#property" class="nav-link">Property</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link pbtn ms-lg-5 px-lg-5" style="max-width: fit-content;">Contact</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+          - #HERO
+        -->
+
+      <section class="hero" id="home">
+        <div class="container" style="place-items: center;">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <ion-icon name="home"></ion-icon>
+
+              <span>Real Estate Agency</span>
+            </p>
+
+            <h2 class="h1 hero-title">Find Your Dream House By Us</h2>
+
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+            </p>
+
+            <button class="pbtn">Make An Enquiry</button>
+
+          </div>
+
+          <!-- <figure class="hero-banner">
+              <img src="./assets/images/1hero-banner.png" alt="Modern house model" class="w-100">
+            </figure> -->
+          <div class="appointment-form">
+            <h6>Schedule a Visit</h6>
+            <form id="contact">
+              <!-- IF MAIL SENDING UNSUCCESSFUL -->
+              <span class="error">E-mail must be valid and message must be longer than 1 character.</span>
+
+              <div class="input-box">
+                <input id="cf-name" type="text" name="cf-name" placeholder="Name" required>
+              </div>
+
+              <div class="input-box">
+                <input id="cf-phone" type="tel" name="cf-phone" placeholder="Phone number" required>
+              </div>
+              <div class="input-box">
+                <input id="cf-email" type="email" name="cf-email" placeholder="Email" required>
+              </div>
+
+              <!-- IF MAIL SENT SUCCESSFULLY -->
+              <span class="success">Your message has been sent successfully.</span>
+
+              <div class="input-box">
+                <input class="button" id="cf-submit" name="submit" type="submit" value="Send Message">
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+          - #ABOUT
+        -->
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner-1.png" alt="House interior">
+
+            <img src="./assets/images/about-banner-2.jpg" alt="House interior" class="abs-img">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">Redefining Real Estate Experiences for You</h2>
+
+            <p class="about-text">
+              We are committed to providing the best real estate experiences, whether you're looking to rent, buy, or
+              invest in properties. With a global presence and local expertise, we make finding your perfect home easier
+              and faster. Our mission is to empower you to make informed decisions, backed by the latest technology and
+              a team of dedicated professionals working around the clock for you.
+            </p>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Innovative Property Solutions</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Sustainable Living Spaces</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="wine-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Luxury Amenities and Comfort</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Reliable Security and Safety</p>
+              </li>
+
+            </ul>
+
+            <p class="callout">
+              "Your dream home is just a click away. Explore our extensive property listings and make your move today."
+            </p>
+
+            <a href="#service" class="pbtn">Discover Our Services</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+          - #PROPERTY
+        -->
+
+      <section class="property" id="property">
+        <div class="container-xxl">
+
+          <p class="section-subtitle">Properties</p>
+
+          <h2 class="h2 section-title">Featured Listings</h2>
+
+          <ul class="property-list has-scrollbar">
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+                  <section id="carousel1" class="splide" aria-label="My Awesome Gallery">
+                    <div class="splide__track">
+                      <ul class="splide__list">
+                        <li class="splide__slide">
+                          <img src="assets/images/property1/property-1.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property1/bedroom.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property1/bathroom.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property1/kitchen.webp" alt="">
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+
+
+                  <ul id="thumbnails" class="thumbnails">
+                    <li class="thumb thumbnail1 d-none">
+                      <img src="assets/images/property1/property-1.jpg" alt="">
+                    </li>
+                    <li class="thumb thumbnail1">
+                      <img src="assets/images/property1/bedroom.jpg" alt="">
+                      <span>Bedroom</span>
+                    </li>
+                    <li class="thumb thumbnail1">
+                      <img src="assets/images/property1/bathroom.jpg" alt="">
+                      <span>Bathroom</span>
+                    </li>
+                    <li class="thumb thumbnail1">
+                      <img src="assets/images/property1/kitchen.webp" alt="">
+                      <span>Kitchen</span>
+                    </li>
+                  </ul>
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <section id="carousel2" class="splide" aria-label="My Awesome Gallery">
+                    <div class="splide__track">
+                      <ul class="splide__list">
+                        <li class="splide__slide">
+                          <img src="assets/images/property2/property2.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property2/bedroom.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property2/bathroom2.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property2/kitchen.jpg" alt="">
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+
+
+                  <ul id="thumbnails" class="thumbnails">
+                    <li class="thumb thumbnail2 d-none">
+                      <img src="assets/images/property2/property2.jpg" alt="">
+                    </li>
+                    <li class="thumb thumbnail2">
+                      <img src="assets/images/property2/bedroom.jpg" alt="">
+                      <span>Bedroom</span>
+                    </li>
+                    <li class="thumb thumbnail2">
+                      <img src="assets/images/property2/bathroom2.jpg" alt="">
+                      <span>Bathroom</span>
+                    </li>
+                    <li class="thumb thumbnail2">
+                      <img src="assets/images/property2/kitchen.jpg" alt="">
+                      <span>Kitchen</span>
+                    </li>
+                  </ul>
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <section id="carousel3" class="splide" aria-label="My Awesome Gallery">
+                    <div class="splide__track">
+                      <ul class="splide__list">
+                        <li class="splide__slide">
+                          <img src="assets/images/property3/property3.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property3/bedroom.webp" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property3/Bathroom.webp" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property3/kitchen.jpg" alt="">
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+
+
+                  <ul id="thumbnails" class="thumbnails">
+                    <li class="thumb thumbnail3 d-none">
+                      <img src="assets/images/property3/property3.jpg" alt="">
+                    </li>
+                    <li class="thumb thumbnail3">
+                      <img src="assets/images/property3/bedroom.webp" alt="">
+                      <span>Bedroom</span>
+                    </li>
+                    <li class="thumb thumbnail3">
+                      <img src="assets/images/property3/Bathroom.webp" alt="">
+                      <span>Bathroom</span>
+                    </li>
+                    <li class="thumb thumbnail3">
+                      <img src="assets/images/property3/kitchen.jpg" alt="">
+                      <span>Kitchen</span>
+                    </li>
+                  </ul>
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <section id="carousel4" class="splide" aria-label="My Awesome Gallery">
+                    <div class="splide__track">
+                      <ul class="splide__list">
+                        <li class="splide__slide">
+                          <img src="assets/images/property4/property4.jpeg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property4/bedroom.webp" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="./assets/images/bedroom.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property4/bath.jpg" alt="">
+                        </li>
+                        <li class="splide__slide">
+                          <img src="assets/images/property4/kitchen.webp" alt="">
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+
+
+                  <ul id="thumbnails" class="thumbnails">
+                    <li class="thumb thumbnail4 d-none">
+                      <img src="assets/images/property4/property4.jpeg" alt="">
+                    </li>
+                    <li class="thumb thumbnail4">
+                      <img src="assets/images/property4/bedroom.webp" alt="">
+                      <span>Bedroom</span>
+                    </li>
+                    <li class="thumb thumbnail4">
+                      <img src="assets/images/property4/bath.jpg" alt="">
+                      <span>Bathroom</span>
+                    </li>
+                    <li class="thumb thumbnail4">
+                      <img src="assets/images/property4/kitchen.webp" alt="">
+                      <span>Kitchen</span>
+                    </li>
+                  </ul>
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <section class="property">
+        <div class="container-xxl d-flex flex-column align-items-center justify-content-center">
+
+          <p class="section-subtitle">Properties listing</p>
+
+          <h2 class="h2 section-title">Our Properties</h2>
+
+          <ul class="property-list more-properties" id="more-properties-list">
+
+
+            <li>
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="hidden">
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="hidden">
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="hidden">
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="hidden">
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="hidden">
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="hidden">
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="hidden">
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li class="hidden">
+              <div class="property-card more-properties-card">
+
+                <figure class="card-banner">
+                  <img src="assets/images/property1/property-1.jpg" alt="">
+                  <div class="card-badge green">For Rent</div>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-price">
+                    <strong>$34,900</strong>/Month
+                  </div>
+
+                  <h3 class="h3 card-title">
+                    <a href="javascript:void()" class="property-card-link">Comfortable Apartment</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
+                  </p>
+
+                  <ul class="card-list p-0">
+
+                    <li class="card-item">
+                      <strong>3</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="man-outline"></ion-icon>
+
+                      <span>Bathrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>3450</strong>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                        <rect width="24" height="24" fill="none" />
+                        <path fill="none" stroke="#5d737e" stroke-linecap="round" stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M11 6.5h2M11 18h2m-7-5v-2m12 2v-2M5 8h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0 12h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m12 0h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1m0-12h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1" />
+                      </svg>
+
+                      <span>Square Ft</span>
+                    </li>
+                    <li class="call-now">
+                      <a href="#" class="call-now-btn">Call Now</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+          <button id="view-all-btn" class="view-all-btn">View More</button>
+        </div>
+      </section>
+      <script>
+        document.querySelector('.view-all-btn').addEventListener('click', function () {
+
+          const hiddenCards = document.querySelectorAll('.property-list .hidden');
+          const cardsToShow = Array.from(hiddenCards).slice(0, 3);
+
+          cardsToShow.forEach(card => {
+            card.classList.remove('hidden');
+          });
+
+          if (hiddenCards.length <= 3) {
+            this.style.display = 'none';
+          }
+        });
+
+      </script>
+      <!-- 
+          - #SERVICE
+        -->
+      <section class="service" id="service">
+        <div class="container">
+
+          <p class="section-subtitle">Our Services</p>
+
+          <h2 class="h2 section-title">Our Core Services</h2>
+
+          <ul class="service-list p-0">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-1.png" alt="Buy a Home Service">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Buy a Home</a>
+                </h3>
+
+                <p class="card-text">
+                  Explore a diverse range of homes for sale. We offer expert guidance and help you find the perfect
+                  property for your needs, whether it's your first home or an investment property.
+                </p>
+
+                <a href="#property" class="card-link">
+                  <span>Explore Homes</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-2.png" alt="Rent a Home Service">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Rent a Home</a>
+                </h3>
+
+                <p class="card-text">
+                  Browse through a wide selection of rental properties. We help you find the ideal home or apartment for
+                  your budget and preferences, with flexible terms and convenient locations.
+                </p>
+
+                <a href="#property" class="card-link">
+                  <span>Find Rentals</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-3.png" alt="Sell a Home Service">
+                </div>
+
+                <h3 class="h3 card-title">
+                  <a href="#">Sell a Home</a>
+                </h3>
+
+                <p class="card-text">
+                  Ready to sell your property? We provide a seamless selling experience, offering free valuations and
+                  expert support to help you achieve a quick and profitable sale.
+                </p>
+
+                <a href="#property" class="card-link">
+                  <span>Get a Valuation</span>
+
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+          - #FEATURES
+        -->
+
+      <section class="features">
+        <div class="container">
+
+          <p class="section-subtitle">Our Aminities</p>
+
+          <h2 class="h2 section-title">Building Aminities</h2>
+
+          <ul class="features-list p-0">
+
+            <li>
+              <a href="#" onclick="return false" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="car-sport-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Parking Space</h3>
+
+
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" onclick="return false" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="water-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Swimming Pool</h3>
+
+
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" onclick="return false" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Private Security</h3>
+
+
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" onclick="return false" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="fitness-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Medical Center</h3>
+
+
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" onclick="return false" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="library-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Library Area</h3>
+
+
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" onclick="return false" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="bed-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">King Size Beds</h3>
+
+
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" onclick="return false" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Smart Homes</h3>
+
+
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" onclick="return false" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="football-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Kid’s Playland</h3>
+
+
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- map -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788310375756!2d72.82012480426394!3d19.141689896091528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1747891538306!5m2!1sen!2sin"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="300px"
+        class="ul-contact-map"></iframe>
+      <!-- 
+          - #CTA
+        -->
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="cta-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">Looking for a dream home?</h2>
+
+              <p class="card-text">We can help you realize your dream of a new home</p>
+            </div>
+
+            <a href="#property" class="pbtn cta-btn">
+              <span>Explore Properties</span>
+
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+      - #FOOTER
+    -->
+
+  <footer class="footer">
+    <button class="top-up-btn" onclick="scrollToTop()"><svg xmlns="http://www.w3.org/2000/svg" width="20px"
+        height="20px" viewBox="0 0 1024 1024">
+        <rect width="1024" height="1024" fill="none" />
+        <path fill="#fff"
+          d="M572.235 205.282v600.365a30.118 30.118 0 1 1-60.235 0V205.282L292.382 438.633a28.913 28.913 0 0 1-42.646 0a33.43 33.43 0 0 1 0-45.236l271.058-288.045a28.913 28.913 0 0 1 42.647 0L834.5 393.397a33.43 33.43 0 0 1 0 45.176a28.913 28.913 0 0 1-42.647 0l-219.618-233.23z" />
+      </svg></button>
+    <a href="" class="whatsapp-btn">
+      <ion-icon name="logo-whatsapp"></ion-icon>
+    </a>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="footer-brand col-lg-3 col-md-6 col-sm-12">
+
+            <a href="#" class="logo">
+              <img src="assets/images/logo.png" width="110px" height="auto" alt="real-estate logo">
+            </a>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <rect width="24" height="24" fill="none" />
+                    <path fill="#fff"
+                      d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95" />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 14 14">
+                    <rect width="14" height="14" fill="none" />
+                    <g fill="none">
+                      <g clip-path="url(#primeTwitter0)">
+                        <path fill="#fff"
+                          d="M11.025.656h2.147L8.482 6.03L14 13.344H9.68L6.294 8.909l-3.87 4.435H.275l5.016-5.75L0 .657h4.43L7.486 4.71zm-.755 11.4h1.19L3.78 1.877H2.504z" />
+                      </g>
+                      <defs>
+                        <clipPath id="primeTwitter0">
+                          <path fill="#fff" d="M0 0h14v14H0z" />
+                        </clipPath>
+                      </defs>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <rect width="24" height="24" fill="none" />
+                    <path fill="#fff"
+                      d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                    <rect width="24" height="24" fill="none" />
+                    <path fill="#fff"
+                      d="m10 15l5.19-3L10 9zm11.56-7.83c.13.47.22 1.1.28 1.9c.07.8.1 1.49.1 2.09L22 12c0 2.19-.16 3.8-.44 4.83c-.25.9-.83 1.48-1.73 1.73c-.47.13-1.33.22-2.65.28c-1.3.07-2.49.1-3.59.1L12 19c-4.19 0-6.8-.16-7.83-.44c-.9-.25-1.48-.83-1.73-1.73c-.13-.47-.22-1.1-.28-1.9c-.07-.8-.1-1.49-.1-2.09L2 12c0-2.19.16-3.8.44-4.83c.25-.9.83-1.48 1.73-1.73c.47-.13 1.33-.22 2.65-.28c1.3-.07 2.49-.1 3.59-.1L12 5c4.19 0 6.8.16 7.83.44c.9.25 1.48.83 1.73 1.73" />
+                  </svg>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+          <ul class="col-lg-3 col-md-6 col-sm-12">
+            <li class=" footer-list-title">About</li>
+            <p class="section-text">
+              Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the
+              printing.
+            </p>
+          </ul>
+          <ul class="col-lg-2 col-md-6 col-sm-12">
+
+            <li>
+              <p class="footer-list-title">Company</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="footer-link">About</a>
+            </li>
+
+            <li>
+              <a href="#service" class="footer-link">Service</a>
+            </li>
+
+            <li>
+              <a href="#property" class="footer-link">Property</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="footer-link">Contact</a>
+            </li>
+
+          </ul>
+          <ul class="col-lg-4 col-md-6 col-sm-12">
+            <li>
+              <p class="footer-list-title mb-4">Contact Us</p>
+            </li>
+            <li class="mb-4">
+              <a href="#" class="contact-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                  <rect width="24" height="24" fill="none" />
+                  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                    d="M256 48c-79.5 0-144 61.39-144 137c0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137" />
+                  <circle cx="256" cy="192" r="48" fill="none" stroke="#fff" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="32" />
+                </svg>
+
+                <address class="mb-0">Brooklyn, New York, United States</address>
+              </a>
+            </li>
+
+            <li class="mb-4">
+              <a href="tel:+0123456789" class="contact-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                  <rect width="24" height="24" fill="none" />
+                  <path fill="#fff" fill-rule="evenodd"
+                    d="M8.889 8A.894.894 0 0 0 8 8.889C8 26.073 21.927 40 39.111 40a.894.894 0 0 0 .889-.889V32.52a.894.894 0 0 0-.889-.889c-2.449 0-4.84-.395-7.057-1.127l-.01-.004a.88.88 0 0 0-.896.215l-4.67 4.67l-.648-.332c-5.531-2.834-10.067-7.348-12.883-12.884l-.33-.647l4.67-4.67a.9.9 0 0 0 .226-.913a22.5 22.5 0 0 1-1.124-7.05A.894.894 0 0 0 15.5 8zM6 8.889A2.894 2.894 0 0 1 8.889 6H15.5a2.894 2.894 0 0 1 2.889 2.889c0 2.254.36 4.415 1.026 6.43l.002.006l.002.007a2.9 2.9 0 0 1-.719 2.934l-3.634 3.635A27.6 27.6 0 0 0 26.1 32.933l3.633-3.633a2.88 2.88 0 0 1 2.953-.694a20.6 20.6 0 0 0 6.424 1.024A2.894 2.894 0 0 1 42 32.519v6.592A2.894 2.894 0 0 1 39.111 42C20.822 42 6 27.178 6 8.889"
+                    clip-rule="evenodd" />
+                </svg>
+
+                <span>+0123-456789</span>
+              </a>
+            </li>
+
+            <li class="mb-4">
+              <a href="mailto:contact@saudqureshi37@gmail.com" class="contact-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <rect width="24" height="24" fill="none" />
+                  <path fill="#fff"
+                    d="M4.616 19q-.691 0-1.153-.462T3 17.384V6.616q0-.691.463-1.153T4.615 5h14.77q.69 0 1.152.463T21 6.616v10.769q0 .69-.463 1.153T19.385 19zM20 6.885l-7.552 4.944q-.106.055-.214.093q-.109.037-.234.037t-.234-.037t-.214-.093L4 6.884v10.5q0 .27.173.443t.443.173h14.769q.269 0 .442-.173t.173-.443zM12 11l7.692-5H4.308zM4 6.885v.211v-.811v.034V6v.32v-.052v.828zV18z" />
+                </svg>
+
+                <span>sq@gmail.com/span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2025 <a href="https://allzytech.com/">Allzy Tech</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+      - js
+    -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const navbar = document.getElementById('navbar');
+      const scrollHeight = 100;
+
+      window.addEventListener('scroll', function () {
+        if (window.scrollY >= scrollHeight) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+    });
+
+  </script>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- 
+      - custom js link
+    -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/splide.js"></script>
+  <!-- 
+      - ionicon link
+    -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
